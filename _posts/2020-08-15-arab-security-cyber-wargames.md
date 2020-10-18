@@ -17,7 +17,7 @@ In this blog post I will be discussing 2 crypto challenges from Arab Security Wa
 |S.No.|Challenge                                                                            | Points |
 |:---:|:-----------------------------------------------------------------------------------:|:------:|
 | 1   | [Challenge 3](https://github.com/ascwg/Challenges/tree/master/Crypto/Challenge%203) | 600    |
-| 3   | [Challenge 5](https://github.com/ascwg/Challenges/tree/master/Crypto/Challenge%205) | 300    |
+| 2   | [Challenge 5](https://github.com/ascwg/Challenges/tree/master/Crypto/Challenge%205) | 300    |
  
 ## Challenge 3
 > [output.txt](https://github.com/malladisiddu/Crypto-writeups/blob/master/ascwgctf/challenge3/output.txt)
