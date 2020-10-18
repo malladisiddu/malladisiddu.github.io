@@ -212,13 +212,17 @@ c3 = 0xba6043f974e916da2c0a8c343f83d32773e005f52bcba452bc7a36a9f65c6758afc5b5878
 
 Looks like Hastad's Broadcast Attack? but it isn't, try it!
 Also, from the hint we can understand that this challenge is related to Lenstra –Lenstra -Lov ́asz i.e., `LLL` lattice reduction technique should be used to solve this challenge.
-I got many queries regarding this challenge, they've tried almost all attacks based on `LLL`. After trying with all the attacks one must understand that it has common private exponent. Since you are given 3 public keys and respective ciphertexts. So this [Lattice Based Common Private Exponent Attack](https://www.ijcsi.org/papers/IJCSI-9-2-1-311-314.pdf).
+I've received many queries from the participanmts regarding this challenge, they've tried almost all attacks based on `LLL`. After trying with all the attacks one must understand that it has common private exponent. Since you are given 3 public keys and respective ciphertexts. So this [Lattice Based Common Private Exponent Attack](https://www.ijcsi.org/papers/IJCSI-9-2-1-311-314.pdf).
 
 ### The Attack
-Let \(M = \sqrt{N}\). Assume that you are given `r` public keys \((e_1,N_1\)), ... \((e_r,N_r\)), we begin by considering the `r` key equations 
+Let `M = sqrt(N)`. Assume that you are given `r` public keys \((e_1,N_1\)), ... \((e_r,N_r\)), we begin by considering the `r` key equations 
     
-$$\begin{pmatrix}M & e_1 & e_2  & ... & e_r \\\ 0 & -N_1 & 0 & ... & 0\\\ 0 & 0 & -N_2 & ... & 0\end{pmatrix}$$, i.e.,
-
+```
+[M e1 ... er
+0 -N1 0 .. 0
+0 0 -N2 .. 0]
+```
+i.e.,
 ```
 M = matrix(ZZ, 4, 4)
 M[0, 0] = n3^0.5
