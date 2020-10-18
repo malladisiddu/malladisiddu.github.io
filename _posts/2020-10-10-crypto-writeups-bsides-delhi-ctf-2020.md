@@ -239,6 +239,7 @@ Applying LLL algorithm, with the above matrix as input, we obtain a reduced basi
 If the attack is successful, we expect the first component of basis vector must be equal to `M[0,0]*d` where `d` is common private exponent. that's it we got the private key with which we can find the plaintext / flag.
 Here is my entire expoit written in `sage`,
 
+
 ```python
 from Crypto.Util.number import long_to_bytes
 e1 = 0x3222ce734bbd9f62ee0b3bcccc96af3b9295c705695a1353ecfbab8176eb533a2cb7af3948d28271de99ae776bbecfc168b8466ec39ee728bf386827edd3cfd3aa93f0bc8336002ec7625c5d39d8eb5dde71682652039ea879b46a8838158f5d3414357a2ed60ce1f30ab6b872999073dd91f30ae6b00374fc57faf1089aa99855993830f5cbdbc853fc4f8372c08eb558a44f9e4fc6e082212dfe13fe36609e872d31524bc58e4cc9cabd95f82e360380d8dd757d00ce65142ffc6f0da94a53f6e580b01e3d965aca15a81d30652489d7de18bf16d7e4a74701c0a508dccc2420a3a4d34279afef1f35ef1258128aec2ed3642b27119d6cb55b35efb8de131d
