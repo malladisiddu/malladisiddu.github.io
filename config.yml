@@ -1,0 +1,105 @@
+baseURL: https://malladisiddu.github.io/
+languageCode: en-us
+title: Siddartha's Blog
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Siddartha's Blog
+    description: "Personal blog of st0ic3r"
+    keywords: [Blog, Portfolio, PaperMod]
+    author: Siddartha
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+    defaultTheme: dark # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    label:
+        text: "Home"
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: True # needs to be explicitly set
+        title: Siddartha Malladi 
+        subtitle: >
+          Security Researcher @ Uptycs | CTF Player @ bi0sblr 
+        imageUrl: /avatar.jpg
+        imageWidth: 200
+        imageHeight: 200
+        imageTitle: "st0ic3r"
+        buttons:
+            - name: Posts
+              url: posts/
+              weight: 5
+            - name: Tags
+              url: tags/
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/st0ic3r"
+        - name: github
+          url: "https://github.com/malladisiddu"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/siddarthamalladi/"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single pag
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+menu:
+    main:
+        - name: Archive
+          url: archive/
+          weight: 5
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Media Coverage
+          url: media-coverage/
+          weight: 10
+
