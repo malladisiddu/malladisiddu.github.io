@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DES on Siddartha&#39;s Blog</title>
+    <link>https://malladisiddu.github.io/tags/des/</link>
+    <description>Recent content in DES on Siddartha&#39;s Blog</description>
+    <image>
+      <title>Siddartha&#39;s Blog</title>
+      <url>https://malladisiddu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://malladisiddu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://malladisiddu.github.io/tags/des/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arab Security Cyber Wargames</title>
+      <link>https://malladisiddu.github.io/posts/arab-security-cyber-wargames/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/posts/arab-security-cyber-wargames/</guid>
+      <description>First things first, Arab Security Cyber Wargames is a qualifiers CTF, Top 10 would be qualified for the finals at Egypt. We c0d3_h4cki05_(aka bi0s|Bangalore) finished 10th globally, hence we qualified for finals! Yay!
+In this blog post I will be discussing 2 crypto challenges from Arab Security Wargames CTF Quals. As there were some glitches with the server initially, they shared the challenges repo in the discord server, so we were able to work on the challenges even though there were some glitches.</description>
+    </item>
+    
+  </channel>
+</rss>

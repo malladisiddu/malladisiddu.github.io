@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLL on Siddartha&#39;s Blog</title>
+    <link>https://malladisiddu.github.io/tags/lll/</link>
+    <description>Recent content in LLL on Siddartha&#39;s Blog</description>
+    <image>
+      <title>Siddartha&#39;s Blog</title>
+      <url>https://malladisiddu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://malladisiddu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://malladisiddu.github.io/tags/lll/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BSides Delhi CTF - 2020</title>
+      <link>https://malladisiddu.github.io/posts/bsides-delhi-ctf-2020/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/posts/bsides-delhi-ctf-2020/</guid>
+      <description>This year my team c0d3_h4cki05_ got the opportunity to host BSides Delhi CTF. We organized the CTF on October 10th which is a 10 hour CTF (13.00 - 22.00 IST). Also this is a begginer friendly CTF. I&amp;rsquo;m happy that it went well. Yay! I authored three challenges for this CTF which are of difficulty ranging from easy, medium and hard. This blog post is to cover the intended solutions to all the 3 crypto challenges.</description>
+    </item>
+    
+  </channel>
+</rss>

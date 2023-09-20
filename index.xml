@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Siddartha&#39;s Blog</title>
+    <link>https://malladisiddu.github.io/</link>
+    <description>Recent content on Siddartha&#39;s Blog</description>
+    <image>
+      <title>Siddartha&#39;s Blog</title>
+      <url>https://malladisiddu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://malladisiddu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://malladisiddu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News</title>
+      <link>https://malladisiddu.github.io/media-coverage/media-coverage/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/media-coverage/media-coverage/</guid>
+      <description>Media Coverage https://www.uptycs.com/blog/new-poc-exploit-backdoor-malware
+Coverage: https://www.itsecuritynews.info/fake-poc-for-linux-kernel-vulnerability-on-github-exposes-researchers-to-malware/ https://thehackernews.com/2023/07/blog-post.html https://www.darkreading.com/attacks-breaches/linux-hacker-exploits-researchers-with-fake-pocs-posted-to-github https://www.bleepingcomputer.com/news/security/fake-linux-vulnerability-exploit-drops-data-stealing-malware/#google_vignette https://thecyberwire.com/podcasts/daily-podcast/1862/notes https://blog.kowatek.com/2023/07/13/fake-poc-for-linux-kernel-vulnerability-on-github-exposes-researchers-to-malware/ https://pledgetimes.com/fake-poc-a-new-vulnerability-in-the-linux-kernel/ https://open.spotify.com/episode/5G7RgkJJ0u0BZmFEc4wM41?si=tWa9FfikSKi-qLDD-KQv5A&amp;amp;context=spotify%3Ashow%3A4orGHEysjCAWvGEbHzeL9A https://www.scmagazine.com/news/devops/fake-poc-github-backdoor https://primenewsprint.com/techonolgy/linux-hacker-exploits-researchers-with-fake-pocs-posted-to-github/ https://www.csoonline.com/article/646239/fake-poc-with-data-stealing-malware-discovered-on-github.html https://cloudsecurityalliance.org/blog/2023/08/04/poc-exploit-fake-proof-of-concept-with-backdoor-malware/ https://www.hackread.com/fake-github-repos-malware-as-pocs/ https://www.swapupdate.in/fake-poc-for-linux-kernel-vulnerability-on-github-exposes-researchers-to-malware/ https://www.uptycs.com/blog/winrar-vulnerability-exploitation
+Coverage: https://thecyberwire.com/newsletters/daily-briefing/12/173 </description>
+    </item>
+    
+    <item>
+      <title>BSides Delhi CTF - 2020</title>
+      <link>https://malladisiddu.github.io/posts/bsides-delhi-ctf-2020/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/posts/bsides-delhi-ctf-2020/</guid>
+      <description>This year my team c0d3_h4cki05_ got the opportunity to host BSides Delhi CTF. We organized the CTF on October 10th which is a 10 hour CTF (13.00 - 22.00 IST). Also this is a begginer friendly CTF. I&amp;rsquo;m happy that it went well. Yay! I authored three challenges for this CTF which are of difficulty ranging from easy, medium and hard. This blog post is to cover the intended solutions to all the 3 crypto challenges.</description>
+    </item>
+    
+    <item>
+      <title>FwordCTF 2020</title>
+      <link>https://malladisiddu.github.io/posts/fwordctf-2020-writeups/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/posts/fwordctf-2020-writeups/</guid>
+      <description>I thoroughly enjoyed playing FwordCTF-2020, but I could manage to play only for 7 hours.
+Randomness Randomness.py
+Given an encryption file in which the output is commented,
+from Crypto.Util.number import * from random import * flag=&amp;#34;TODO&amp;#34; p=getPrime(64) a=getrandbits(64) b=getrandbits(64) X=[] X.append((a*getrandbits(64)+b)%p) c=0 while c&amp;lt;len(flag): X.append((a*X[c]+b)%p) c+=1 output=[] for i in range(len(flag)): output.append(ord(flag[i])^X[i]) print (output) #output:[6680465291011788243L, 5100570103593250421L, 5906808313299165060L, 1965917782737693358L, 9056785591048864624L, 1829758495155458576L, 6790868899161600055L, 1596515234863242823L, 1542626304251881891L, 8104506805098882719L, 1007224930233032567L, 3734079115803760073L, 7849173324645439452L, 8732100672289854567L, 5175836768003400781L, 1424151033239111460L, 1199105222454059911L, 1664215650827157105L, 9008386209424299800L, 484211781780518254L, 2512932525834758909L, 270126439443651096L, 3183206577049996011L, 3279047721488346724L, 3454276445316959481L, 2818682432513461896L, 1198230090827197024L, 6998819122186572678L, 9203565046169681246L, 2238598386754583423L, 467098371562174956L, 5653529053698720276L, 2015452976526330232L, 2551998512666399199L, 7069788985925185031L, 5960242873564733830L, 8674335448210427234L, 8831855692621741517L, 6943582577462564728L, 2159276184039111694L, 8688468346396385461L, 440650407436900405L, 6995840816131325250L, 4637034747767556143L, 3074066864500201630L, 3089580429060692934L, 2636919931902761401L, 5048459994558771200L, 6575450200614822046L, 666932631675155892L, 3355067815387388102L, 3494943856508019168L, 3208598838604422062L, 1651654978658074504L, 1031697828323732832L, 3522460087077276636L, 6871524519121580258L, 6523448658792083486L, 127306226106122213L, 147467006327822722L, 3241736541061054362L, 8781435214433157730L, 7267936298215752831L, 3411059229428517472L, 6597995245035183751L, 1256684894889830824L, 6272257692365676430L, 303437276610446361L, 8730871523914292433L, 6472487383860532571L, 5022165523149187811L, 4462701447753878703L, 1590013093628585660L, 4874224067795612706L] The idea to solve the challenge is very simple, if we can find X and XOR it with the given output we get the flag.</description>
+    </item>
+    
+    <item>
+      <title>Arab Security Cyber Wargames</title>
+      <link>https://malladisiddu.github.io/posts/arab-security-cyber-wargames/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/posts/arab-security-cyber-wargames/</guid>
+      <description>First things first, Arab Security Cyber Wargames is a qualifiers CTF, Top 10 would be qualified for the finals at Egypt. We c0d3_h4cki05_(aka bi0s|Bangalore) finished 10th globally, hence we qualified for finals! Yay!
+In this blog post I will be discussing 2 crypto challenges from Arab Security Wargames CTF Quals. As there were some glitches with the server initially, they shared the challenges repo in the discord server, so we were able to work on the challenges even though there were some glitches.</description>
+    </item>
+    
+    <item>
+      <title>PoseidonCTF 2020 writeups</title>
+      <link>https://malladisiddu.github.io/posts/poseidonctf-2020-writeups/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/posts/poseidonctf-2020-writeups/</guid>
+      <description>Challenge: discrete log I heard some cryptosystem uses discrete logarithm.
+It is hard problem, isn&amp;rsquo;t it?
+I encrypted the flag with 4095bit modulus&amp;hellip;
+Author : kiona
+output.txt problem.py
+Given generator, modulus and ciphertext
+g = 172749132303451034825184289722866887646478207718904031630914096520683022158034517117605936723970812800902379716660696042889559048647206589145869496198395421965440272135852383965230458163451729744948637995163776071512309614027603968693250321092562108610034043037860044795655266224453184735452048413623769098671844195106558284409006269382544367448145088128499405797694142037310933061698125568790497068516077791616445318819525778890129259953967830407023305805724947609041398183006524760589480514375528363943261764527906775893795625189651746165941438248136930298545695110631212696683271254403308539994170329875688236599305478130030194371971383054083049610267982461416568688720562725217837462387935392946474596966349477680685726377666929540130924122398746591270899232208239961618302848348129375606841006687727574503519146164506867574157671109933022528435615415554171024171300585408907077259610240139419075684581512703943171162496513070572546968852202777002845137863414028314025114932581655385254082418111977242759980115915504202336380850329162861826132885827910210346708045087589916666711356848614195462267049823085141386868421005551877773672329046391854000523197388175515628464457551891476514779819019668102328395639607489673081022505099 n = 204964538005458094391574690738766104196067587947267165575341074475716043971842449550067337731195102944823593489101699510575531541895593939634478254160200896755891641047742120885540191258962212405226135805491196590351987106011483652123110409148411537235255207358696047015199616340882291357173918540392964501976492251077110794432722042202109934588262870543755493029748475008610896164870659893013085704495216717998116109896882952474884270785733861739050889113464275228554841649603978281963688294995328883256317404081735364738985601286409677647577052211093127231530844271726386293348738817021732679704754961436390654856963930636538653822714234978179695778198536592408645222590877027896792957778186555118729335564281356291031440583078132397563914801937048297147819254611598144027963328749607393168101280779708669908245620694587176737529113823312930871616550632035759346759393976128246210013752530912953330415598837661326422094379798718827988692760848583517436061574821754507293943235476923624688378441177770313101393581916112910947153305055575974237171438666919114843946573283829704010962833299593770650238349021406868347635157566404829030358844616367849771415905381318344903398551946493709551783771889575282972265629264217620138873678733 enc = 58749077215207190492371298843854826665007067693641554277597021927783439106518176607848876784025881251057880587477892585242567469682290542409002363284991521084199535617805983767364935247518813883871587009725229910084882524866335007624383374126379502610933045897762967063766174922757656816300993939273687091280630401460905159739072179134897626330594985795970230333335492872721173603390854317323095769925904629970032658376378937924244589208035572848434030889091930182042226202356340798415809817722086119981262671540923062830870681500341640178082497128371291359953884993700348396920219975667972939044100089402796215197615549948516999318565775626034391795498234335228509335613253342179818268681240653806015040771731154600343889814141382273506238199460016081871283682838719833841393528105371834961952754168257271394981634141286257602629174903644009990944563870674888760807045240859970974837258567236802649772719645362361127488126570702845624169598462415354350277654287009645871674305081755840523910495569765451437265785385267255452210836618705384598344351666486694835670072372776263570462639412759703397195350879217144135006968472391258993407007505079063659488976186871280542665310586453539153772026697145449262179967269376262891840972187 Also they gave the encryption function, encrypt function looks like a DLP
+def encrypt(pubkey, msg): g, n = pubkey msgint = bytes_to_long(msg) encint = pow(g, msgint, n) return encint but the keygen function made me to think</description>
+    </item>
+    
+    <item>
+      <title>InCTF 2020 writeups</title>
+      <link>https://malladisiddu.github.io/posts/inctf-2020-writeups/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/posts/inctf-2020-writeups/</guid>
+      <description>Challenge: PolyRSA Description All the warmup you need
+Writeup Given out.txt which consists of
+p n (as polynomial) m^65537 (ciphertext also as polynomial) To be honest, I never solved an RSA challenge based polynomials. So I checked for similar challenges which I couldn&amp;rsquo;t find, but I found one research paper from which I was able to solve this challenge. It is just similar to integer RSA, instead of numbers we have here polynomials.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

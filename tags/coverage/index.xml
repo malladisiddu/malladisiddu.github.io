@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>coverage on Siddartha&#39;s Blog</title>
+    <link>https://malladisiddu.github.io/tags/coverage/</link>
+    <description>Recent content in coverage on Siddartha&#39;s Blog</description>
+    <image>
+      <title>Siddartha&#39;s Blog</title>
+      <url>https://malladisiddu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://malladisiddu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://malladisiddu.github.io/tags/coverage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>News</title>
+      <link>https://malladisiddu.github.io/media-coverage/media-coverage/</link>
+      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://malladisiddu.github.io/media-coverage/media-coverage/</guid>
+      <description>Media Coverage https://www.uptycs.com/blog/new-poc-exploit-backdoor-malware
+Coverage: https://www.itsecuritynews.info/fake-poc-for-linux-kernel-vulnerability-on-github-exposes-researchers-to-malware/ https://thehackernews.com/2023/07/blog-post.html https://www.darkreading.com/attacks-breaches/linux-hacker-exploits-researchers-with-fake-pocs-posted-to-github https://www.bleepingcomputer.com/news/security/fake-linux-vulnerability-exploit-drops-data-stealing-malware/#google_vignette https://thecyberwire.com/podcasts/daily-podcast/1862/notes https://blog.kowatek.com/2023/07/13/fake-poc-for-linux-kernel-vulnerability-on-github-exposes-researchers-to-malware/ https://pledgetimes.com/fake-poc-a-new-vulnerability-in-the-linux-kernel/ https://open.spotify.com/episode/5G7RgkJJ0u0BZmFEc4wM41?si=tWa9FfikSKi-qLDD-KQv5A&amp;amp;context=spotify%3Ashow%3A4orGHEysjCAWvGEbHzeL9A https://www.scmagazine.com/news/devops/fake-poc-github-backdoor https://primenewsprint.com/techonolgy/linux-hacker-exploits-researchers-with-fake-pocs-posted-to-github/ https://www.csoonline.com/article/646239/fake-poc-with-data-stealing-malware-discovered-on-github.html https://cloudsecurityalliance.org/blog/2023/08/04/poc-exploit-fake-proof-of-concept-with-backdoor-malware/ https://www.hackread.com/fake-github-repos-malware-as-pocs/ https://www.swapupdate.in/fake-poc-for-linux-kernel-vulnerability-on-github-exposes-researchers-to-malware/ https://www.uptycs.com/blog/winrar-vulnerability-exploitation
+Coverage: https://thecyberwire.com/newsletters/daily-briefing/12/173 </description>
+    </item>
+    
+  </channel>
+</rss>
