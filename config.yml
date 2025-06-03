@@ -53,7 +53,7 @@ params:
         enabled: True # needs to be explicitly set
         title: Siddartha Malladi 
         subtitle: >
-          Security Researcher @ Uptycs | CTF Player @ bi0sblr 
+          Security Researcher @ Qualys | Ex-Uptycs | CTF Player @ bi0sblr 
         imageUrl: /avatar.jpg
         imageWidth: 200
         imageHeight: 200
