@@ -121,6 +121,8 @@ body.te .k{text-transform:none; letter-spacing:.5px; font-size:13px}
 .nm{color:var(--red); font-weight:700; font-size:1.05em; line-height:1.5}
 .script{font-family:'Great Vibes',cursive; color:var(--red); font-size:33px; margin:0 0 6px; text-align:center}
 .sign-sec{text-align:center}
+.mang{display:flex; justify-content:space-between; align-items:baseline; gap:12px;
+  color:var(--red); font-weight:700; font-size:1.02em; margin:0 0 18px}
 body.te .script{font-family:'Mallanna',serif; font-size:22px}
 footer{text-align:center; padding:34px 0 56px; color:var(--gold); font-size:14.5px}
 footer a{color:var(--red); text-decoration:none; font-weight:700}
@@ -128,6 +130,7 @@ h2{font-family:'Cinzel',serif; color:var(--red); font-size:15px; letter-spacing:
   text-transform:uppercase; text-align:center; margin:0 0 22px; font-weight:500}
 body.te h2{font-family:'Mallanna',serif; text-transform:none; letter-spacing:.5px; font-size:18px}
 .only-te{display:none} body.te .only-te{display:block} body.te .only-en{display:none}
+body.te .mang.only-te{display:flex}
 @media(prefers-reduced-motion:reduce){
   *{animation:none!important; transition:none!important}
   .reveal{opacity:1; transform:none}
@@ -169,20 +172,20 @@ body.te h2{font-family:'Mallanna',serif; text-transform:none; letter-spacing:.5p
 
   <section class="parents reveal">
     <div class="lead">
-      <span class="only-en">Our father turns sixty this year, and we would like you with us when we mark it.</span>
+      <span class="only-en">Please join us in celebrating a remarkable milestone of grace, devotion, and sixty years of a life well lived, as we honour our beloved parents</span>
       <span class="only-te">మల్లాది వేంకట సుబ్రహ్మణ్య దత్తసాయి సిద్దార్థ వ్రాయు శుభలేఖార్థములు</span>
     </div>
     <p>
-      <span class="only-en">The ceremony falls on Ashwayuja Shuddha Trayodashi, and the priests have fixed it for the morning of <b>Saturday, the 24th of October 2026</b>.</span>
-      <span class="only-te">స్వస్తిశ్రీ చాంద్రమాన శ్రీ పరాభవ నామ సంవత్సర ఆశ్వయుజ శుద్ధ త్రయోదశి స్థిరవారం అనగా <b>24‑10‑2026</b> న మా తల్లిదండ్రులకు</span>
+      <span class="only-te">స్వస్తిశ్రీ చాంద్రమాన శ్రీ పరాభవ నామ సంవత్సర ఆశ్వయుజ శుద్ధ త్రయోదశి స్థిరవారం అనగా <b>24‑10‑2026</b> న మా తల్లిదండ్రులు</span>
     </p>
     <div class="names">
-      <span class="only-en">Brahmasri Malladi Suryanarayana Murty<br>&amp; Smt. Lakshmi Narasu</span>
+      <span class="only-en">Sri Malladi Suryanarayana Murty<br>Smt. Lakshmi Narasu</span>
       <span class="only-te">బ్రహ్మశ్రీ మల్లాది సూర్యనారాయణ మూర్తి<br>శ్రీమతి లక్ష్మీ నరసు దంపతులకు</span>
     </div>
+    <p class="only-en">on the occasion of his Shashtipoorthi.</p>
     <p>
-      <span class="only-en">The Ugra Ratha Shanti will be performed for them together on Ashwayuja Shuddha Trayodashi. Come with your family, sit with us through the rituals, and stay for lunch the next day. Your blessings on them are all we are asking for.</span>
-      <span class="only-te">ఉగ్రరథ శాంతి మహోత్సవములు జరిపించుటకు దైవజ్ఞులచే నిర్ణయింపబడినది. గాన తాము సకుటుంబ సపరివారంగా విచ్చేసి కార్యక్రమమును తిలకించి మమ్ములను ఆశీర్వదించి, మా ఆతిథ్యమును స్వీకరించి మమ్మానందింపజేయ ప్రార్థన.</span>
+      <span class="only-en">His quiet strength and their enduring bond have been a source of inspiration and strength for us. Let us gather for the day filled with blessings, warmth, and heartfelt memories.</span>
+      <span class="only-te">ఉగ్రరథ శాంతి మహోత్సవములు జరిపించుటకు దైవజ్ఞులచే నిర్ణయింపబడినది. కావున తామెల్లరూ సకుటుంబ సపరివార సమేతముగా విచ్చేసి కార్యక్రమమును తిలకించి మమ్ములను ఆశీర్వదించి, మా ఆతిథ్యమును స్వీకరించి మమ్మానందింపజేయ ప్రార్థన.</span>
     </p>
   </section>
 
@@ -191,7 +194,6 @@ body.te h2{font-family:'Mallanna',serif; text-transform:none; letter-spacing:.5p
   </section>
 
   <section class="reveal">
-    <h2><span class="only-en">Occasion</span><span class="only-te">వివరములు</span></h2>
     <div class="cards">
       <div class="card">
         <div class="k"><span class="only-en">Venue</span><span class="only-te">వేదిక</span></div>
@@ -203,12 +205,12 @@ body.te h2{font-family:'Mallanna',serif; text-transform:none; letter-spacing:.5p
       <div class="card">
         <div class="k"><span class="only-en">Ceremony</span><span class="only-te">కార్యక్రమం</span></div>
         <div class="v">
-          <span class="only-en"><b>Saturday, 24th October 2026</b></span>
+          <span class="only-en"><b>Ugra Ratha Shanti Mahotsavam</b><br>Saturday, 24th October 2026</span>
           <span class="only-te"><b>24‑10‑2026 స్థిరవారం</b></span>
         </div>
         <div class="k" style="margin-top:16px"><span class="only-en">Lunch</span><span class="only-te">విందు</span></div>
         <div class="v">
-          <span class="only-en"><b>Sunday, 25th October 2026</b>, from 12:30 p.m. onwards</span>
+          <span class="only-en">Lunch follows on <b>Sunday, 25th October 2026</b>, from 12:30 p.m. onwards</span>
           <span class="only-te"><b>25‑10‑2026 ఆదివారం</b> మధ్యాహ్నం గం. 12.30 ని.ల నుండి</span>
         </div>
       </div>
@@ -224,8 +226,9 @@ body.te h2{font-family:'Mallanna',serif; text-transform:none; letter-spacing:.5p
   </section>
 
   <section class="reveal sign-sec">
+    <div class="mang only-te"><span>మంగళం మహత్</span><span>శ్రీ: శ్రీ: శ్రీ: శ్రీ: శ్రీ:</span></div>
     <div class="script">
-      <span class="only-en">With love</span>
+      <span class="only-en">With love and appreciation</span>
       <span class="only-te">భవదీయులు</span>
     </div>
     <div class="fam" style="margin-top:18px">
@@ -255,6 +258,7 @@ body.te h2{font-family:'Mallanna',serif; text-transform:none; letter-spacing:.5p
 
   <footer>
     <div style="margin-bottom:10px">
+      <span class="only-en">With the best compliments of our near and dear</span>
       <span class="only-te">బంధుమిత్రుల అభినందనలతో....</span>
     </div>
     RSVP : <a href="tel:+919393793955">9393793955</a> &middot; <a href="tel:+919346668777">9346668777</a>
